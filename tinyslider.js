@@ -33,7 +33,7 @@
 
         var themeColor = opts.themeColor || "#848383",
             callback = opts.onClick || function() {},
-            eles = document.getElementsByClassName("tinyslide");
+            eles = document.getElementsByClassName("tinyslider");
 
         if (typeof callback != "function") {
             callback = function() {};
@@ -51,7 +51,7 @@
 
             // add classess to slides
             for (var a = 0; a < directChildren.length; a++) {
-                directChildren[a].className += directChildren[a].className ? " tinyslide-slide" : "tinyslide-slide";
+                directChildren[a].className += directChildren[a].className ? " tinyslider-slide" : "tinyslider-slide";
                 directChildren[a].className += " " + a;
             }
 
@@ -62,7 +62,7 @@
             wrapper.style.left = "0px";
             thisSlideGroup.appendChild(wrapper);
 
-            var slides = thisSlideGroup.getElementsByClassName("tinyslide-slide");
+            var slides = thisSlideGroup.getElementsByClassName("tinyslider-slide");
 
 
             for (var l = 0; l < slides.length; l++) {
