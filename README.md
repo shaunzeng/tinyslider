@@ -6,7 +6,7 @@ a second. You can have as many sliders as you want, it will adjust itself to fit
 
 ```html
 <body>
-  <div class=""tinyslider>
+  <div class="tinyslider">
     <div>
       "Your first slider content"
     </div>
@@ -35,5 +35,5 @@ tinyslider.init() takes a few options
 ```js
 tinyslider.init({
   themeColor:"" // a color, type : string
-  onClick: function(){}, // a function(), when the pager is cliked 
+  onClick: function(){}, // a function, when the pager is cliked 
 });
