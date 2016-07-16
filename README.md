@@ -8,15 +8,15 @@ a second. You can have as many sliders as you want, it will adjust itself to fit
 <body>
   <div class="tinyslider">
     <div>
-      "Your first slider content"
+      //Your first slider content
     </div>
     
     <div>
-      "Your second slider content"
+      //Your second slider content
     </div>
     
     <div>
-      "Your third slider content"
+      //Your third slider content"
     </div>
     
     ...
