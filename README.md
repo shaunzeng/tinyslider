@@ -1,8 +1,7 @@
 # tinyslider.js
-A standalone JavaScript micro-library that builds a slider quickly. No jQuery or css required.
+A standalone JavaScript library that builds a slider. No jQuery or css required.
 
-It is very easy to use tinyslider. Follow the html structure below, and iniatite tinyslider, then you will have a slider in just 
-a second. You can have as many sliders as you want, it will adjust itself to fit in your outter div width.
+It is super easy to use tinyslider. Follow the html structure below to initialize tinySlider. You can have as many sliders as you want. The sliders will adjust itself to fit in your outter div width.
 
 ```html
 <body>
@@ -35,5 +34,5 @@ tinyslider.init() takes a few options
 ```js
 tinyslider.init({
   themeColor:"" // a color, type : string
-  onClick: function(){}, // a function, when the pager is cliked 
+  onClick: function(){}, // a function, callback on Click
 });
